@@ -29,6 +29,7 @@ class Discord extends NotificationProvider {
                     address = monitorJSON["hostname"];
                     break;
                 case "port":
+                case "mysql":
                 case "dns":
                 case "steam":
                     address = monitorJSON["hostname"];
